@@ -1,0 +1,31 @@
+h2 {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.container-clientes,
+.container-viajes,
+.container-reservas {
+    border-radius: 6px;
+}
+
+
+.formulario-clientes,
+.formulario-viajes,
+.formulario-reservas {
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.container-clientes,
+.container-viajes,
+.container-reservas {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
