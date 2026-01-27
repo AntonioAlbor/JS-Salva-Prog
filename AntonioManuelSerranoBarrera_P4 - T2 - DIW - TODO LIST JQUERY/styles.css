@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dadada;
+}
+
+h2{
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+}   
+
+.container-general{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#boton-añadir-tarea{
+    margin-top: 15px;
+}
+
+.filtros-tarea{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
