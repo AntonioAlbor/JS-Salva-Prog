@@ -1,0 +1,120 @@
+/* Variables root */
+
+:root {
+
+    /* claro */
+    --fondo-claro: #f4f4f4;
+    --texto-claro: #222222;
+    --header-claro: #c4dfdf;
+    --seccion-claro: #ffffff;
+    --footer-claro: #eaeaea;
+    --boton-claro: #a4c5c5;
+    --boton-hover-claro: #7ba7a7;
+    --borde-claro: #d0d0d0;
+
+    /* oscuro */
+    --fondo-oscuro: #1e293b;
+    --texto-oscuro: #e5e7eb;
+    --header-oscuro: #0f172a;
+    --seccion-oscuro: #1f2937;
+    --footer-oscuro: #0f172a;
+    --boton-oscuro: #334155;
+    --boton-hover-oscuro: #475569;
+    --borde-oscuro: #334155;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--fondo-claro);
+    color: var(--texto-claro);
+}
+
+header {
+    background-color: var(--header-claro);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid var(--borde-claro);
+}
+
+#icono-tema-claro {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 15px;
+    font-size: smaller;
+}
+
+button {
+    background-color: var(--boton-claro);
+    color: var(--texto-claro);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 6px;
+}
+
+button:hover {
+    background-color: var(--boton-hover-claro);
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+section {
+    background-color: var(--seccion-claro);
+    border: 2px solid var(--borde-claro);
+    border-radius: 12px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+#barra-progreso{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  width: 0%;
+  background-color: #e47676;
+  z-index: 9999;
+}
+
+#ir-arriba{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: block;
+}
+
+footer {
+    background-color: var(--footer-claro);
+    border-top: 2px solid var(--borde-claro);
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}

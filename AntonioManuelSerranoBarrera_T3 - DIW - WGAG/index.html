@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <div id="barra-progreso"></div>
+
+    <header>
+        <i id="icono-tema-claro" class="bi bi-sun"></i>
+        <h1>Web interactiva</h1>
+        <nav>
+            <ul>
+                <li><a href="#mensaje-dinamico">Mensaje dinámico</a></li>
+                <li><a href="#seccion-color">Color</a></li>
+                <li><a href="#contador">Contador</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+        <button id="cambiar-tema">Cambiar tema</button>
+        <button id="aumentar-letra">Aumentar letra</button>
+        <button id="disminuir-letra">Disminuir letra</button>
+        <button id="leer-pagina">Leer página</button>
+    </header>
+
+    <main>
+
+        <section id="mensaje-dinamico">
+            <p>Kincillooooooo</p>
+        </section>
+
+        <section id="seccion-color">
+            <p>Pulsa el botón para cambiar el color de fondo</p>
+            <button id="cambiar-color">Cambiar color</button>
+        </section>
+
+        <section id="contador">
+            <p>Contador de clicks, pulsa el boton para contar: <span id="contador-clicks">0</span></p>
+            <button id="sumar-click">Hacer click</button>
+        </section>
+
+        <section id="ejemplo">
+            <h2>Ejemplo de texto para que la pagian sea algo mas grande y comprobar la barra de progreso y el boton</h2>
+            <p>Llenósele la fantasía de todo aquello que leía en los libros, así de encantamentos como de pendencias,
+                batallas, desafíos, heridas, requiebros, amores, tormentas y disparates imposibles;
+                y asentósele de tal modo en la imaginación que era verdad toda aquella máquina de aquellas sonadas
+                soñadas invenciones que leía,
+                que para él no había otra historia más cierta en el mundo.Decía él que el Cid Ruy Díaz había sido muy
+                buen caballero,
+                pero que no tenía que ver con el Caballero de la Ardiente Espada, que de sólo un revés había partido por
+                medio dos fieros y
+                descomunales gigantes.Mejor estaba con Bernardo del Carpio, porque en Roncesvalles había muerto a Roldán
+                el encantado,
+                valiéndose de la industria de Hércules, cuando ahogó a Anteo, el hijo de la Tierra, entre los brazos.
+            </p>
+             <button id="pulsa-salva">Pulsa Salva</button>
+        </section>
+
+        <button id="ir-arriba">Ir arriba</button>
+
+    </main>
+
+    <footer id="footer">
+        <p>antonio.serrano.barrera03@alumnos.alborfp.com</p>
+        <p>© 2026</p>
+    </footer>
+
+</body>
+
+</html>
