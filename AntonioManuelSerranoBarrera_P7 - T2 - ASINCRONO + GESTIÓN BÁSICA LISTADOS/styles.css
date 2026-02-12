@@ -1,0 +1,25 @@
+#filtros {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#pagina {
+    margin: 0;
+}
+
+#spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
